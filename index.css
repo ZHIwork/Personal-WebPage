@@ -1,0 +1,45 @@
+body{
+  background-color: lightblue;
+}
+
+/*--------------------------------------------------------------*/
+/*                    Language Switch Style                     */
+/*--------------------------------------------------------------*/
+.language_switch{
+  background-color: white;
+}
+
+.button-English,
+.button-Chinese{
+  color: white;
+  border-radius: 25px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: black;
+}
+
+
+
+/*--------------------------------------------------------------*/
+/*                    First Part Style                          */
+/*--------------------------------------------------------------*/
+
+/* background image's style for both versions */
+.self-image{
+  background-image: url("WeChat Image_20181228163336.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+}
+
+/* text style for English version */
+.self-text-English{
+  font-family: "Comic Serif Pro", serif;
+  text-align: center;
+  font-size: 500%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}

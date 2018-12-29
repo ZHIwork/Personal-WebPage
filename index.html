@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!----------------------------------------------------------------------------->
+<!--                                                                         -->
+<!--                                head                                     -->
+<!--                                                                         -->
+<!----------------------------------------------------------------------------->
+<head>
+  <meta charset="utf-8">
+  <!-- the name of webpage when loaded -->
+  <title>ZHI</title>
+  <!-- link html to css file -->
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <!-- load jQuery hosted library so that .getJSON can be used in index.js file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- link html to js file (must call it after loaded the jQuery library) -->
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<!----------------------------------------------------------------------------->
+<!--                                                                         -->
+<!--                                body                                     -->
+<!--                                                                         -->
+<!----------------------------------------------------------------------------->
+<body>
+
+  <!---------------------------------------------->
+  <!--           Lauguage Switch Part           -->
+  <!---------------------------------------------->
+  <!-- 1. language switch button -->
+  <div class="language_switch">
+    <button class="button-English" onclick="readJsonEn()">English</button>
+    <button class="button-Chinese" onclick="readJsonCh()">中文</button>
+  </div>
+
+
+
+  <!---------------------------------------------->
+  <!--               First Part                 -->
+  <!---------------------------------------------->
+  <div class="self-image">
+    <div class="self-text-English">
+      <p>Hey, this is</p>
+      <strong>MEW</strong>
+    </div>
+  </div>
+</body>
+
+</html>
