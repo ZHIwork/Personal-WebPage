@@ -4,7 +4,7 @@
 
 /* read json file where English stored */
 function readJsonEn(){
-    $.getJSON("languageEnglish.json", function(data) {
+    $.getJSON("/jsonFile/languageEnglish.json", function(data) {
       $("p").html(data.msg_firstPart_Hey);//.html() replace the original info
       $("strong").html(data.msg_firstPart_name);
     });
@@ -12,7 +12,7 @@ function readJsonEn(){
 
 /* read json file where Chinese stored */
 function readJsonCh(){
-    $.getJSON("languageChinese.json", function(data) {
+    $.getJSON("/jsonFile/languageChinese.json", function(data) {
       $("p").html(data.msg_firstPart_Hey);
       $("strong").html(data.msg_firstPart_name);
     });
