@@ -1,39 +1,62 @@
-body{
+body {
   background-color: lightblue;
 }
 
 /*--------------------------------------------------------------*/
 /*                    Language Switch Style                     */
 /*--------------------------------------------------------------*/
-.language_switch{
-  background-color: white;
+
+/*  button row  */
+.language_switch {
 }
 
-.button-English,
-.button-Chinese{
-  color: white;
-  border-radius: 25px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background-color: black;
+/*  button itself  */
+.button-Language{
+  background-color: transparent;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;
 }
 
+.button-Language:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+.button-Language:active{
+  color: #BBBBBB;
+  border-color: #BBBBBB;
+}
+
+.button-Language{
+  display:block;
+  margin:0.4em auto;
+ }
 
 
 /*--------------------------------------------------------------*/
 /*                    First Part Style                          */
 /*--------------------------------------------------------------*/
-
 /* background image's style for both versions */
-.self-image{
+.self-image {
   background-image: url("WeChat Image_20181228163336.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height:500px;
+  height: 500px;
 }
 
 /* text style for English version */
-.self-text-English{
+.self-text-English {
   font-family: "Comic Serif Pro", serif;
   text-align: center;
   font-size: 500%;
